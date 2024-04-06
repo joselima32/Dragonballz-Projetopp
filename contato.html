@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./contato.css" />
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logo.png" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+   </header> 
+   <div class="container">
+        
+        <section>
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input style="display: block;" id="name" type="nome" placeholder="Digite seu nome"/>
+               
+                <label for="email">Email</label>
+                <input style="display: block;" id="email" type="email" placeholder="Digite seu email"/>
+
+                <label for="date">Data de Nascimento</label>
+                <input style="display: block;" id="date" type="date" name="date"/>
+
+                <label for="mensagem">Dia da Semana</label>
+                <select style="display: block;" name="dia da semana">
+                    <option value="Domingo">Domingo<option/>
+                    <option value="Segunda">Segunda<option/>
+                    <option value="Terça">Terça<option/>
+                    <option value="Quarta">Quarta<option/> 
+                    <option value="Quinta">Quinta<option/>
+                    <option value="Sexta">Sexta<option/>
+                    <option value="Sábado">Sábado<option/>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea style="display: block;" name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                <button>Enviar</button>
+                
+            </form>
+        </section>
+
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="./logo.png" />
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: José Lima</span>
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+    </div>    
+</body>
+</html>
